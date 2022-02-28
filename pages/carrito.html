@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | Proyecto Final</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <header class="header">
+      <img class="header__logo" src="../media/logo.webp" alt="Logo">
+      <nav class="header__nav">
+              <a class="header__nav__link" href="../index.html"><span>Inicio</span></a>
+              <a class="header__nav__link" href="#"><img id="user-icon" src="../media/user-icon.png" alt=""></a>
+      </nav>
+  </header>
+    <main class="main">
+        <h1 class="main__title">Carrito de Compras</h1>
+        <p id="total">Total:</p>
+        <section class="carrito lista-productos"></section>
+        <a class="button button--carrito" href="#">Continuar Compra</a>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__title">Encontranos en:</h2>
+        <ul class="footer__list">
+            <li class="footer__list__item"><a class="footer__link">Twitter</a></li>
+            <li class="footer__list__item"><a class="footer__link">Facebook</a></li>
+            <li class="footer__list__item"><a class="footer__link">Instagram</a></li>
+        </ul>
+    </footer>
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+    <script src="../script/cart.js"></script>
+    <script src="../script/product.js"></script>
+    <script src="../script/carrito.js"></script>
+</body>
+</html>
