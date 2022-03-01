@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
                 $("#title").html(article.name);
                 $("#price").html(`$ ${article.price}`);
-                $("#image").attr("src",article.image);
+                $("#image").attr("src",`../${article.image}`);
 
                 $("#article-button").click(()=>{
 
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                     myCart.load();
                   }
 
-                  myCart.addItem(article.id,article.name,article.price,article.image,$("#article-amount").val());
+                  myCart.addItem(article.id,article.name,article.price,`../${article.image}`,$("#article-amount").val());
 
                   window.location.href = "../index.html";
                 });

@@ -70,8 +70,8 @@ function renderProducts(page){
          $(".lista-productos").children().last().find("button").click((e)=>{
 
             e.stopPropagation();
-            addToCart(product.id,product.name,product.price,product.image
-         )})
+            addToCart(product.id,product.name,product.price,`../${product.image}`);
+         })
          $(".lista-productos").children().last().find(".producto__imagen").css("background-image",`url(${product.image})`)
          $(".lista-productos").children().last().click(()=>{
 
