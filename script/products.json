@@ -4,55 +4,55 @@
             "id" : 1,
             "name" : "Remera",
             "price" : 240,
-            "image": "../media/remera.webp"
+            "image": "media/remera.webp"
         },
         {
             "id" : 2,
             "name" : "Pantalón de Jean",
             "price" : 1200,
-            "image": "../media/pantalon_jean.webp"
+            "image": "media/pantalon_jean.webp"
         },
         {
             "id" : 3,
             "name" : "Buso",
             "price" : 750,
-            "image": "../media/buso.webp"
+            "image": "media/buso.webp"
         },
         {
             "id" : 4,
             "name" : "Campera de Cuero",
             "price" : 3000,
-            "image": "../media/campera_cuero.webp"
+            "image": "media/campera_cuero.webp"
         },
         {
             "id" : 5,
             "name" : "Gorra",
             "price" : 200,
-            "image": "../media/gorra.webp"
+            "image": "media/gorra.webp"
         },
         {
             "id" : 6,
             "name" : "Zapatillas",
             "price" : 8000,
-            "image": "../media/zapatillas.webp"
+            "image": "media/zapatillas.webp"
         },
         {
             "id" : 7,
             "name" : "Medias",
             "price" : 170,
-            "image": "../media/medias.webp"
+            "image": "media/medias.webp"
         },
         {
             "id" : 8,
             "name" : "Shorts",
             "price" : 400,
-            "image": "../media/shorts.webp"
+            "image": "media/shorts.webp"
         },
         {
             "id" : 9,
             "name" : "Campera Polar",
             "price" : 450,
-            "image": "../media/campera_polar.webp"
+            "image": "media/campera_polar.webp"
         }
     ],
     "products_2" : [
@@ -60,55 +60,55 @@
             "id" : 10,
             "name" : "Camisa",
             "price" : 420,
-            "image": "../media/camisa.webp"
+            "image": "media/camisa.webp"
         },
         {
             "id" : 11,
             "name" : "Pantalón de Vestir",
             "price" : 1350,
-            "image": "../media/pantalon_vestir.webp"
+            "image": "media/pantalon_vestir.webp"
         },
         {
             "id" : 12,
             "name" : "Chaleco",
             "price" : 750,
-            "image": "../media/chaleco.webp"
+            "image": "media/chaleco.webp"
         },
         {
             "id" : 13,
             "name" : "Saco",
             "price" : 4500,
-            "image": "../media/saco.webp"
+            "image": "media/saco.webp"
         },
         {
             "id" : 14,
             "name" : "Bufanda",
             "price" : 280,
-            "image": "../media/bufanda.webp"
+            "image": "media/bufanda.webp"
         },
         {
             "id" : 15,
             "name" : "Zapatos de cuero",
             "price" : 12300,
-            "image": "../media/zapatos.webp"
+            "image": "media/zapatos.webp"
         },
         {
             "id" : 16,
             "name" : "Corbata",
             "price" : 210,
-            "image": "../media/corbata.webp"
+            "image": "media/corbata.webp"
         },
         {
             "id" : 17,
             "name" : "Guantes",
             "price" : 170,
-            "image": "../media/guantes.webp"
+            "image": "media/guantes.webp"
         },
         {
             "id" : 18,
             "name" : "Sobretodo",
             "price" : 7800,
-            "image": "../media/sobretodo.webp"
+            "image": "media/sobretodo.webp"
         }
     ]
 }
