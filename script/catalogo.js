@@ -38,7 +38,7 @@ function addToCart(id,name,price,image,amount=1){
 
 function renderProducts(page){
 
-   $.getJSON("../script/products.json",(respuesta,estado)=>{
+   $.getJSON("script/products.json",(respuesta,estado)=>{
 
       if(estado === "success"){
 
